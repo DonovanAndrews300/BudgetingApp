@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.0.js"
+  integrity="sha256-TFWSuDJt6kS+huV+vVlyV1jM3dwGdeNWqezhTxXB/X8="
+  crossorigin="anonymous"></script>
+    <title>Budget</title>
+  </head>
+  <body>
+    <form>
+  <input id="days"  placeholder="Days worked this pay period" onkeyup="inputKeyUp(event)"/>
+  <div id="error">...</div>
+</form>
+<div></div>
+<div id="netpay"></div>
+<table>
+	<tbody>
+		<tr>
+			<td>Rent</td>
+			<td id="rent"></td>
+		</tr>
+		<tr>
+			<td> Groceries</td>
+			<td id="groceries"></td>
+		</tr>
+		<tr>
+			<td>Debt</td>
+			<td id="debt"></td>
+		</tr>
+		<tr>
+			<td>Bills</td>
+			<td id="bills"></td>
+		</tr>
+		<tr>
+			<td>Invest</td>
+			<td id="invest"> </td>
+		</tr>
+		<tr>
+			<td> Excess</td>
+			<td id="excess"> </td>
+		</tr>
+	</tbody>
+</table>
+  </body>
+</html>
